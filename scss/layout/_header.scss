@@ -5,7 +5,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border-bottom: 1px solid $backgroundLight;
+	border-bottom: 1px solid $greenLight;
 }
 
 .header__logo {
@@ -17,16 +17,16 @@
 }
 
 .header__date-number {
-	color: $backgroundDark;
+	color: $greenDark;
 	font-size: 1.5em;
 	margin-right: 5px;
 }
 
 .header__date-days h5 {
-	color: #696d67;
+	color: $greyDark;
 	line-height: 1.8em;
 }
 
 .header__date-days h6 {
-	color: #a6a8a9;
+	color: $greyLight;
 }
