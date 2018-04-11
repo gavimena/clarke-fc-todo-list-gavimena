@@ -1,32 +1,10 @@
-body {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  background: -webkit-gradient(#2bd7c3, #1da293);
-  background-color: #2bd7c3;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .back__container-small {
   width: 246px;
   height: 400px;
-  top: 20%;
   position: absolute;
   background-color: #aaece5;
   border: solid 1px #25c0ae;
+  outline-color: #24c1af;
   border-radius: 4px;
 }
 
@@ -34,9 +12,9 @@ body {
   width: 238px;
   height: 413px;
   position: absolute;
-  top: 19%;
   background-color: #d4f2ef;
   border: solid 1px #a2d4ce;
+  outline-color: #b4ebe6;
   border-radius: 4px;
 }
 
@@ -44,10 +22,31 @@ body {
   width: 230px;
   height: 427px;
   position: absolute;
-  top: 18%;
   background-color: white;
   border: solid 1px #edf3f2;
+  outline-color: #d1e8e2;
   border-radius: 4px;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2bd7c3), to(#1da293));
+  background: linear-gradient(#2bd7c3, #1da293);
+  background: -webkit-linear-gradient(#2bd7c3, #1da293);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=main.css.map */
