@@ -16,17 +16,24 @@
 	display: flex;
 }
 
+.header__date {
+	display: flex;
+	align-items: center;
+}
+
 .header__date-number {
 	color: $greenDark;
-	font-size: 2em;
+	font-size: 2.2em;
 	margin-right: 5px;
 }
 
-.header__date-days h5 {
+.header__day {
 	color: $greyDark;
-	line-height: 1.8em;
+	line-height: 1.5em;
+	font-size: .9em;
 }
 
-.header__date-days h6 {
+.header__month, .header__year {
 	color: $greyLight;
+	font-size: .7em;
 }
