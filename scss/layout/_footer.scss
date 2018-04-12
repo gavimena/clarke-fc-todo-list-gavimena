@@ -1,10 +1,11 @@
 .footer {
 	height: 14vh;
-	width: 75vw;
+	width: 280px;
 	@include containerPadding();
+	position: fixed;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	position: fixed;
 	border-top: 1px solid $greyLight;
+	// display: none;
 }

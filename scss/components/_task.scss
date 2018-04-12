@@ -1,6 +1,7 @@
 .task__list {
-	height: 50vh;
+	height: 41vh;
 	@include containerPadding();
+	// display: none;
 }
 
 .task {
@@ -11,4 +12,47 @@
 
 .task__title {
 	color: $greyDark;
+}
+
+.add__task {
+	display: flex;
+	flex-direction: column;
+	@include containerPadding();
+	width: 80%;
+	height: 150px;
+	background-color: $greenDark;
+	margin: auto;
+	margin-top: 48vh;
+	box-shadow: 5px 5px 10px $greyLight;
+	display: none;
+}
+
+.add__task-title {
+	margin-top: 2vh;
+	font-size: .8em;
+	color: rgba(white, .6);
+	display: none;
+}
+
+.add__task-content {
+	margin-top: 1vh;
+	height: 30px;
+	border: 1px solid white;
+	background-color: transparent;
+	border-color: rgba(white, .6);
+	border-radius: 4px;
+	color: rgba(white, .9);
+	font-size: .9em;
+	padding-left: 10px;
+}
+
+.add__task-button {
+	width: 60%;
+	height: 30px;
+	margin: auto;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 20px;
+	color: white;
+	font-size: .8em;
 }

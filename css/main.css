@@ -26,7 +26,7 @@
 
 .header__date-number {
   color: #1da293;
-  font-size: 1.5em;
+  font-size: 2em;
   margin-right: 5px;
 }
 
@@ -41,9 +41,10 @@
 
 .footer {
   height: 14vh;
-  width: 75vw;
+  width: 280px;
   padding-right: 10%;
   padding-left: 10%;
+  position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -53,7 +54,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  position: fixed;
   border-top: 1px solid #a6a8a9;
 }
 
@@ -88,7 +88,7 @@
 }
 
 .task__list {
-  height: 50vh;
+  height: 41vh;
   padding-right: 10%;
   padding-left: 10%;
 }
@@ -107,13 +107,63 @@
   color: #696d67;
 }
 
+.add__task {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-right: 10%;
+  padding-left: 10%;
+  width: 80%;
+  height: 150px;
+  background-color: #1da293;
+  margin: auto;
+  margin-top: 48vh;
+  -webkit-box-shadow: 5px 5px 10px #a6a8a9;
+  box-shadow: 5px 5px 10px #a6a8a9;
+  display: none;
+}
+
+.add__task-title {
+  margin-top: 2vh;
+  font-size: .8em;
+  color: rgba(255, 255, 255, 0.6);
+  display: none;
+}
+
+.add__task-content {
+  margin-top: 1vh;
+  height: 30px;
+  border: 1px solid white;
+  background-color: transparent;
+  border-color: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: .9em;
+  padding-left: 10px;
+}
+
+.add__task-button {
+  width: 60%;
+  height: 30px;
+  margin: auto;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 20px;
+  color: white;
+  font-size: .8em;
+}
+
 .task__button-check {
   width: 25px;
   height: 25px;
   margin-right: 15px;
   border-radius: 50%;
   border: 2px solid #2bd7c3;
-  background: url("../../images/checked.svg");
+  outline: none;
 }
 
 .footer__button {
@@ -121,7 +171,7 @@
   height: 50px;
   border-radius: 50%;
   border: 2px solid #2bd7c3;
-  background: url("images/add.svg");
+  outline: none;
 }
 
 * {

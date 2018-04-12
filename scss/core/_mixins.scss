@@ -6,6 +6,7 @@
 @mixin roundButton() {
 	border-radius: 50%;
 	border: 2px solid $greenLight;
+	outline: none;
 }
 
 @mixin containerAbsolute() {

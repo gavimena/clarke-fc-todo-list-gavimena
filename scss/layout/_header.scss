@@ -5,6 +5,7 @@
 	justify-content: space-between;
 	align-items: center;
 	border-bottom: 1px solid $greenLight;
+	// display: none;
 }
 
 .header__logo {
@@ -17,7 +18,7 @@
 
 .header__date-number {
 	color: $greenDark;
-	font-size: 1.5em;
+	font-size: 2em;
 	margin-right: 5px;
 }
 
