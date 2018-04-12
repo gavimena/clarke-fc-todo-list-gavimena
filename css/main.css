@@ -40,8 +40,8 @@
 }
 
 .footer {
-  height: 15vh;
-  width: 75%;
+  height: 14vh;
+  width: 75vw;
   padding-right: 10%;
   padding-left: 10%;
   display: -webkit-box;
@@ -57,40 +57,33 @@
   border-top: 1px solid #a6a8a9;
 }
 
-.footer__button {
-  width: 50px;
-  height: 50px;
-  border: 2px solid #2bd7c3;
-  border-radius: 50%;
-}
-
 .back__container-small {
   width: 300px;
   height: 500px;
-  position: absolute;
   background-color: #aaece5;
   border: solid 1px #25c0ae;
   outline-color: #24c1af;
+  position: absolute;
   border-radius: 4px;
 }
 
 .back__container-medium {
   width: 290px;
   height: 510px;
-  position: absolute;
   background-color: #d4f2ef;
   border: solid 1px #a2d4ce;
   outline-color: #b4ebe6;
+  position: absolute;
   border-radius: 4px;
 }
 
 .back__container-large {
   width: 280px;
   height: 520px;
-  position: absolute;
   background-color: white;
   border: solid 1px #edf3f2;
   outline-color: solid #d1e8e2;
+  position: absolute;
   border-radius: 4px;
 }
 
@@ -110,16 +103,25 @@
   padding-top: 10%;
 }
 
+.task__title {
+  color: #696d67;
+}
+
 .task__button-check {
   width: 25px;
   height: 25px;
+  margin-right: 15px;
   border-radius: 50%;
   border: 2px solid #2bd7c3;
-  margin-right: 15px;
+  background: url("../../images/checked.svg");
 }
 
-.task__title {
-  color: #696d67;
+.footer__button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #2bd7c3;
+  background: url("images/add.svg");
 }
 
 * {

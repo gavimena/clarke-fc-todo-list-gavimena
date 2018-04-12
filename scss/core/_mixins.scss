@@ -2,3 +2,13 @@
 	padding-right: 10%;
 	padding-left: 10%;
 }
+
+@mixin roundButton() {
+	border-radius: 50%;
+	border: 2px solid $greenLight;
+}
+
+@mixin containerAbsolute() {
+	position: absolute;
+	border-radius: 4px;
+}

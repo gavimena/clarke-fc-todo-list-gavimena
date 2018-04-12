@@ -1,29 +1,26 @@
 .back__container-small {
 	width: 300px;
 	height: 500px;
-	position: absolute;
 	background-color: rgb(170, 236, 229);
 	border: solid 1px rgb(37, 192, 174);
 	outline-color: rgb(36, 193, 175);
-	border-radius: 4px;
+	@include containerAbsolute();
 }
 
 .back__container-medium {
 	width: 290px;
 	height: 510px;
-	position: absolute;
 	background-color: rgb(212, 242, 239);
 	border: solid 1px rgb(162, 212, 206);
 	outline-color: rgb(180, 235, 230);
-	border-radius: 4px;
+	@include containerAbsolute();
  }
 
 .back__container-large {
 	width: 280px;
 	height: 520px;
-	position: absolute;
 	background-color: rgb(255, 255, 255);
 	border: solid 1px rgb(237, 243, 242);
 	outline-color: solid rgb(209, 232, 226);
-	border-radius: 4px;
+	@include containerAbsolute();
 }
