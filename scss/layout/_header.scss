@@ -1,7 +1,6 @@
 .header {
-	height: 70px;
-	padding-right: 10%;
-	padding-left: 10%;
+	height: 10vh;
+	@include containerPadding();
 	display: flex;
 	justify-content: space-between;
 	align-items: center;

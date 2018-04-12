@@ -1,8 +1,11 @@
+.task__list {
+	height: 50vh;
+	@include containerPadding();
+}
+
 .task {
 	display: flex;
 	align-items: center;
-	padding-right: 10%;
-	padding-left: 10%;
 	padding-top: 10%;
 }
 

@@ -1,35 +1,5 @@
-.back__container-small {
-  width: 300px;
-  height: 500px;
-  position: absolute;
-  background-color: #aaece5;
-  border: solid 1px #25c0ae;
-  outline-color: #24c1af;
-  border-radius: 4px;
-}
-
-.back__container-medium {
-  width: 290px;
-  height: 510px;
-  position: absolute;
-  background-color: #d4f2ef;
-  border: solid 1px #a2d4ce;
-  outline-color: #b4ebe6;
-  border-radius: 4px;
-}
-
-.back__container-large {
-  width: 280px;
-  height: 520px;
-  position: absolute;
-  background-color: white;
-  border: solid 1px #edf3f2;
-  outline-color: solid #d1e8e2;
-  border-radius: 4px;
-}
-
 .header {
-  height: 70px;
+  height: 10vh;
   padding-right: 10%;
   padding-left: 10%;
   display: -webkit-box;
@@ -69,6 +39,67 @@
   color: #a6a8a9;
 }
 
+.footer {
+  height: 15vh;
+  width: 75%;
+  padding-right: 10%;
+  padding-left: 10%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: fixed;
+  border-top: 1px solid #a6a8a9;
+}
+
+.footer__button {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #2bd7c3;
+  border-radius: 50%;
+}
+
+.back__container-small {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  background-color: #aaece5;
+  border: solid 1px #25c0ae;
+  outline-color: #24c1af;
+  border-radius: 4px;
+}
+
+.back__container-medium {
+  width: 290px;
+  height: 510px;
+  position: absolute;
+  background-color: #d4f2ef;
+  border: solid 1px #a2d4ce;
+  outline-color: #b4ebe6;
+  border-radius: 4px;
+}
+
+.back__container-large {
+  width: 280px;
+  height: 520px;
+  position: absolute;
+  background-color: white;
+  border: solid 1px #edf3f2;
+  outline-color: solid #d1e8e2;
+  border-radius: 4px;
+}
+
+.task__list {
+  height: 50vh;
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
 .task {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,8 +107,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-right: 10%;
-  padding-left: 10%;
   padding-top: 10%;
 }
 
@@ -91,22 +120,6 @@
 
 .task__title {
   color: #696d67;
-}
-
-.footer {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  width: 75%;
-  height: 100px;
-  border-top: 1px solid #a6a8a9;
 }
 
 * {

@@ -1,9 +1,11 @@
 @import 'core/variables';
 @import 'core/mixins';
 
-@import 'layout/containers';
 @import 'layout/header';
-@import 'layout/task';
 @import 'layout/footer';
+
+@import 'components/containers';
+@import 'components/task';
+@import 'components/buttons';
 
 @import 'pages/home';
