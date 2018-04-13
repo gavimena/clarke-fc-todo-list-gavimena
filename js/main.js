@@ -6,7 +6,10 @@ let todoApp = function() {
 	const months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
 	const headerDateContainer = document.querySelector('.header__date');
 	const taskListContainer = document.querySelector('.task__list');
-
+	const mainContainer = document.querySelector('.back__container-large');
+	const addTaskContainer = document.querySelector('.add__task');
+	const transparentContainer = document.querySelector('.add__task-transparent');
+	const addTaskBtn = document.querySelector('.footer__button');
 
 	let store = {
 		taskList: [
@@ -49,7 +52,7 @@ let todoApp = function() {
 		console.log(store);
 		headerDateContainer.innerHTML = renderDate();
 		taskListContainer.innerHTML = renderTasks(store.taskList);
-
+		addTaskContainer.innerHTML = renderNewTask();
 		const checkTaskList = document.querySelectorAll('.task__button-check');
 		console.log(checkTaskList);
 		checkTaskList.forEach(function(checkTask, idx){
@@ -72,6 +75,23 @@ let todoApp = function() {
 		render();
 		//task[0].children[1].classList.add('task__completed');
 	}
+
+
+	function renderNewTask() {
+		return `
+		<p class="add__task-title">Nueva tarea</p>
+		<input class="add__task-content" type="text" value="">
+		<button class="add__task-button" type="button" name="button">Añadir</button>
+		`
+		render();
+	}
+
+	addTaskBtn.addEventListener('click', function() {
+		console.log('estoy en el click button');
+		transparentContainer.classList.add('back__container-transparent');
+		renderNewTask();
+	});
+
 
 	render();
 

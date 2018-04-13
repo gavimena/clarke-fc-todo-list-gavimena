@@ -98,6 +98,15 @@
   border-radius: 4px;
 }
 
+.back__container-transparent {
+  width: 280px;
+  height: 520px;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  border-radius: 4px;
+  top: 0;
+}
+
 .task__list {
   height: 41vh;
   padding-right: 10%;
@@ -201,6 +210,8 @@
   border-radius: 50%;
   border: 2px solid #2bd7c3;
   outline: none;
+  background: url("../../images/add.svg") no-repeat center;
+  cursor: pointer;
 }
 
 * {
