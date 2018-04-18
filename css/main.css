@@ -51,7 +51,7 @@
 }
 
 .footer {
-  height: 14vh;
+  height: 10vh;
   width: 280px;
   padding-right: 10%;
   padding-left: 10%;
@@ -201,7 +201,7 @@
 }
 
 .task__button-check:checked:after {
-  content: url(../../images/checked.svg);
+  content: url(/../../images/checked.svg);
 }
 
 .footer__button {
@@ -210,7 +210,7 @@
   border-radius: 50%;
   border: 2px solid #2bd7c3;
   outline: none;
-  background: url("../../images/add.svg") no-repeat center;
+  background: url("/../../images/add.svg") no-repeat center;
   cursor: pointer;
 }
 
